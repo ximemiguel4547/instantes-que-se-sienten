@@ -1,0 +1,57 @@
+:root {
+    --color-crema: #F6F1E7;
+    --color-terracota: #C97C5D;
+    --color-azul-noche: #2C3A47;
+    --color-dorado: #E0B973;
+}
+
+body {
+    background-color: var(--color-crema);
+    font-family: 'Inter', sans-serif;
+    color: var(--color-azul-noche);
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+}
+
+
+.navbar-personalizada {
+    background-color: var(--color-azul-noche);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.marca-sitio {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--color-dorado) !important;
+    font-size: 1.6rem;
+}
+
+.navbar-personalizada .nav-link.active {
+    color: var(--color-dorado) !important;
+    font-weight: 600;
+}
+
+
+.titulo-principal {
+    color: var(--color-azul-noche);
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.texto-principal {
+    color: var(--color-azul-noche);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.btn-terracota {
+    background-color: var(--color-terracota);
+    color: white;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease;
+}

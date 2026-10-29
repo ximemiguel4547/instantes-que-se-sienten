@@ -197,6 +197,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-dorado);
     font-style: italic;
 }
+.form-container p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
 
 .creditos {
     font-size: 0.85rem;

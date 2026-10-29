@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const formulario = document.querySelector('#formularioInstante');
 
     if (formulario) {
-        formulario.addEventListener('submit', function(e) {
-            e.preventDefault(); 
+        formulario.addEventListener('submit', function (e) {
+            e.preventDefault();
 
             if (!formulario.checkValidity()) {
                 Swal.fire({
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     confirmButtonColor: '#C97C5D',
                     confirmButtonText: 'Entendido'
                 });
-                return; 
+                return;
             }
 
             const lugar = document.querySelector('#lugar').value;
